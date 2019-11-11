@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1FF64F2-B6D4-37C3-93DB-CE03308CA3FB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lab2-textures</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\NEO\Desktop\CGLAB\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab2-textures.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab2-textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\NEO\Desktop\CGLAB\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab2-textures.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab2-textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\NEO\Desktop\CGLAB\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab2-textures.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab2-textures</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\labhelper\Debug\labhelper.lib;..\labhelper\imgui\Debug\imgui.lib;..\..\external\sdl2\lib\SDL2.lib;..\..\external\sdl2\lib\SDL2main.lib;..\..\external\glew\lib\glew32.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/Debug/lab2-textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/NEO/Desktop/CGLAB/bin/lab2-textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\labhelper\Release\labhelper.lib;..\labhelper\imgui\Release\imgui.lib;..\..\external\sdl2\lib\SDL2.lib;..\..\external\sdl2\lib\SDL2main.lib;..\..\external\glew\lib\glew32.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/Release/lab2-textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/NEO/Desktop/CGLAB/bin/lab2-textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLM_ENABLE_EXPERIMENTAL;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\NEO\Desktop\CGLAB\labhelper;C:\Users\NEO\Desktop\CGLAB\external_src\stb-master;C:\Users\NEO\Desktop\CGLAB\external_src\tinyobjloader-1.0.6;C:\Users\NEO\Desktop\CGLAB\external\sdl2\include;C:\Users\NEO\Desktop\CGLAB\external\glm\include;C:\Users\NEO\Desktop\CGLAB\external\glew\include;C:\Users\NEO\Desktop\CGLAB\external_src\imgui-1.51;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\labhelper\RelWithDebInfo\labhelper.lib;..\labhelper\imgui\RelWithDebInfo\imgui.lib;..\..\external\sdl2\lib\SDL2.lib;..\..\external\sdl2\lib\SDL2main.lib;..\..\external\glew\lib\glew32.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/RelWithDebInfo/lab2-textures.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/NEO/Desktop/CGLAB/bin/lab2-textures.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\NEO\Desktop\CGLAB\lab2-textures\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/NEO/Desktop/CGLAB/lab2-textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NEO/Desktop/CGLAB -BC:/Users/NEO/Desktop/CGLAB/build --check-stamp-file C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\NEO\Desktop\CGLAB\VSUserTemplate.user;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\NEO\Desktop\CGLAB\build\lab2-textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/NEO/Desktop/CGLAB/lab2-textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NEO/Desktop/CGLAB -BC:/Users/NEO/Desktop/CGLAB/build --check-stamp-file C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\NEO\Desktop\CGLAB\VSUserTemplate.user;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\NEO\Desktop\CGLAB\build\lab2-textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/NEO/Desktop/CGLAB/lab2-textures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/NEO/Desktop/CGLAB -BC:/Users/NEO/Desktop/CGLAB/build --check-stamp-file C:/Users/NEO/Desktop/CGLAB/build/lab2-textures/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\NEO\Desktop\CGLAB\VSUserTemplate.user;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\NEO\Desktop\CGLAB\build\lab2-textures\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\NEO\Desktop\CGLAB\lab2-textures\lab2_main.cpp" />
+    <None Include="C:\Users\NEO\Desktop\CGLAB\lab2-textures\simple.frag" />
+    <None Include="C:\Users\NEO\Desktop\CGLAB\lab2-textures\simple.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\NEO\Desktop\CGLAB\build\ZERO_CHECK.vcxproj">
+      <Project>{370FB8FE-C360-3F56-982B-8AB0F4C35CA1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\NEO\Desktop\CGLAB\build\labhelper\imgui\imgui.vcxproj">
+      <Project>{CE2B17EB-7791-31BC-AB22-590BE9B0665E}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\NEO\Desktop\CGLAB\build\labhelper\labhelper.vcxproj">
+      <Project>{F102B03C-6406-3B8C-8A65-2F2583D28128}</Project>
+      <Name>labhelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
